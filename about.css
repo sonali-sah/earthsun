@@ -164,7 +164,7 @@
   position: absolute;
   bottom: -25px;
   right: -25px;
-  width: 150px; /* Increased size */
+  width: 180px; /* Increased size */
   height: 200px;
   object-fit: cover;
   clip-path: polygon(10% 0%, 100% 0%, 100% 90%, 90% 100%, 0% 100%, 0% 10%);
