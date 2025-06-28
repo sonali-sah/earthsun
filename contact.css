@@ -1,0 +1,158 @@
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Topbar */
+    .topbar {
+      background-color: rgb(52, 111, 170);
+      color: white;
+      font-size: 14px;
+    }
+
+    .topbar a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .topbar a:hover {
+      text-decoration: underline;
+    }
+
+    .topbar i {
+      margin-right: 9px;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #fff;
+    }
+
+    .navbar-nav {
+      flex: 1;
+      justify-content: space-between;
+    }
+
+    .nav-link {
+      color: #333;
+      font-weight: 500;
+    }
+
+    .nav-link:hover,
+    .dropdown-item:hover {
+      color: #007bff;
+    }
+
+    .dropdown-menu {
+      display: none;
+      margin-top: 0;
+    }
+
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+
+    @media (max-width: 991.98px) {
+      .dropdown:hover .dropdown-menu {
+        display: none;
+      }
+    }
+
+
+    .btn-apply {
+      background-color: red;
+      color: white;
+      font-weight: 600;
+      text-decoration: none;s
+    }
+
+    .btn-apply:hover {
+      background-color: red;
+      color: white;
+      text-decoration: underline;
+    }    
+
+
+
+
+
+.footer {
+  width: 100%;
+  background-color: #0a0a23;
+  color: #fff;
+  padding: 50px 20px 20px;
+  margin-top: 50px;
+}
+
+.footer h5,
+.footer-heading {
+  color: #ffd700;
+  margin-bottom: 15px;
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer p {
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  font-size: 20px;
+  margin-right: 15px;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-bottom {
+  color: #bbb;
+  font-size: 14px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .footer .col-md-3 {
+    margin-bottom: 20px;
+  }
+}
+         
+        
+  .footer-bottom {
+      border-top: 1px solid #444;
+      margin-top: 30px;
+      padding-top: 15px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+ 
