@@ -23,53 +23,57 @@
       margin-right: 9px;
     }
 
-    /* Navbar */
-    .navbar {
-      background-color: #fff;
-    }
+/* Navbar background */
+.navbar {
+  background-color: #fff;
+}
 
-    .navbar-nav {
-      flex: 1;
-      justify-content: space-between;
-    }
+/* Center nav items */
+.navbar-nav {
+  flex: 1;
+  justify-content: space-between;
+}
 
-    .nav-link {
-      color: #333;
-      font-weight: 500;
-    }
+/* Nav links styling */
+.nav-link {
+  color: #333;
+  font-weight: 500;
+}
 
-    .nav-link:hover,
-    .dropdown-item:hover {
-      color: #007bff;
-    }
+/* Hover color */
+.nav-link:hover,
+.dropdown-item:hover {
+  color: #007bff;
+}
 
-    .dropdown-menu {
-      display: none;
-      margin-top: 0;
-    }
+/* Don't interfere with Bootstrap's dropdowns */
+.dropdown-menu {
+  margin-top: 0;
+}
 
-    .dropdown:hover .dropdown-menu {
-      display: block;
-    }
+/* Show dropdowns on hover ONLY on desktop */
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
 
-    @media (max-width: 991.98px) {
-      .dropdown:hover .dropdown-menu {
-        display: none;
-      }
-    }
+/* Apply Now button */
+.btn-apply {
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
 
-    .btn-apply {
-      background-color: red;
-      color: white;
-      font-weight: 600;
-      text-decoration: none;
-    }
-
-    .btn-apply:hover {
-      background-color: red;
-      color: white;
-      text-decoration: underline;
-    }
+.btn-apply:hover {
+  background-color: red;
+  color: white;
+  text-decoration: underline;
+}
 
 
     
@@ -133,6 +137,57 @@
         font-size: 1.8rem;
       }
     }
+
+
+    
+.vastu-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.vastu-list li {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.vastu-list i {
+  margin-right: 12px;
+  color: #00ffcc;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .vastu-section {
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .vastu-content {
+    padding: 25px;
+    border-radius: 15px;
+  }
+
+  .vastu-heading {
+    font-size: 1.8rem;
+  }
+
+  .vastu-list li {
+    font-size: 1rem;
+  }
+}
+.btn {
+  padding: 10px 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
 
 
