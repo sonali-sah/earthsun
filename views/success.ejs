@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Submitted</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        table {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+
+
+            body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7f9fc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .thank-you-box {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    .thank-you-box h2 {
+      color: #28a745;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .thank-you-box p {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .thank-you-box a {
+      text-decoration: none;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border-radius: 5px;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+    }
+
+    .thank-you-box a:hover {
+      background-color: #0056b3;
+    }
+
+    </style>
+</head>
+<body>
+  <div class="thank-you-box">
+    <h2>Thank you, <%= user.name %>!</h2>
+    <p>We have received your message.</p>
+    <a href="/">Submit Another Response</a>
+  </div>
+
+
+<!-- 
+    <h3>All Form Submissions:</h3>
+
+  <% if (users.length === 0) { %> 
+        <p>No submissions found.</p>
+    <% } else { %>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Message</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% users.forEach((u, index) => { %>
+                    <tr>
+                        <td><%= index + 1 %></td>
+                        <td><%= u.name %></td>
+                        <td><%= u.email %></td>
+                        <td><%= u.message %></td>
+                    </tr>
+                <% }); %>
+            </tbody>
+        </table>
+    <% } %>
+-->
+</body>
+</html>

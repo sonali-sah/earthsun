@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SRM</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/SRM.css" />
+
+</head>
+<body>
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg shadow-sm sticky-top bg-white">
+  <div class="container-fluid px-4">
+    <!-- Logo -->
+    <a class="navbar-brand me-4" href="#">
+      <img src="images/logo.jpg" alt="Logo" style="height: 60px;">
+    </a>
+
+    <!-- Mobile Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto gap-lg-4 text-center align-items-lg-center">
+
+        <li class="nav-item"><a class="nav-link" href="/form">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+
+
+        <!-- Services Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Our Institution</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/amity">Amity University</a></li>
+            <li><a class="dropdown-item" href="/sharda">Sharda University</a></li>
+            <li><a class="dropdown-item" href="/galgotia">Galgotia university</a></li>
+            <li><a class="dropdown-item" href="/SRM">SRM Institute of Science & Technology (SRM IST)</a></li>
+            <li><a class="dropdown-item" href="/VIT">VIT Vellore (Vellore Institute of Technology)</a></li>
+            <li><a class="dropdown-item" href="/MPU">MPU (Madhyachal Professional University)</a></li>
+            <li><a class="dropdown-item" href="/RGPV">RGPV (Rajiv Gandhi Proudyogiki Vishwavidyalaya)</a></li>
+          </ul>
+        </li>
+
+<li class="nav-item dropdown position-static">
+  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Courses</a>
+  <div class="dropdown-menu w-100 p-4 custom-dropdown shadow">
+    <div class="row">
+
+      <!-- Column 1: UG - Part 1 -->
+      <div class="col-lg-4">
+        <h6 class="text-primary mb-3">UG Courses (Part 1)</h6>
+        <ul class="list-unstyled">
+          <li><a class="dropdown-item" href="Training.html">B.Tech (Computer Science & Engineering)</a></li>
+          <li><a class="dropdown-item" href="payroll.html">B.Tech.CSE (AI & ML)</a></li>
+          <li><a class="dropdown-item" href="integrated.html">B.Tech.CSE (IoT & Cyber Security)</a></li>
+          <li><a class="dropdown-item" href="Statutory.html">B.Tech. (Civil Engineering)</a></li>
+          <li><a class="dropdown-item" href="recruiment.html">B.Tech. (Electrical Engineering)</a></li>
+          <li><a class="dropdown-item" href="recruiment.html">B.Tech. (Mechanical Engineering)</a></li>
+          <li><a class="dropdown-item" href="recruiment.html">B.Tech. (CSE) Data Science</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 2: UG - Part 2 -->
+      <div class="col-lg-4">
+        <h6 class="text-primary mb-3">UG Courses (Part 2)</h6>
+        <ul class="list-unstyled">
+          <li><a class="dropdown-item" href="#">B.Tech. (Electronics & Computer Engg)</a></li>
+          <li><a class="dropdown-item" href="#">B.Tech. (Mech. & Automation)</a></li>
+          <li><a class="dropdown-item" href="#">BCA / BBA / B.Com</a></li>
+          <li><a class="dropdown-item" href="#">B.S.A. (AI / Data Science / Graphics)</a></li>
+          <li><a class="dropdown-item" href="#">B.Sc. (Food Tech / Med Lab / OT)</a></li>
+          <li><a class="dropdown-item" href="#">B.Sc. (Medical / Non-Med / Biotech)</a></li>
+          <li><a class="dropdown-item" href="#">B.Ed</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: PG Courses -->
+      <div class="col-lg-4">
+        <h6 class="text-primary mb-3">Post Graduation</h6>
+        <ul class="list-unstyled">
+          <li><a class="dropdown-item" href="#">M.Tech (CSE)</a></li>
+          <li><a class="dropdown-item" href="#">MCA</a></li>
+          <li><a class="dropdown-item" href="#">Executive MBA / MBA / MBA (Agri-Business)</a></li>
+          <li><a class="dropdown-item" href="#">M.Com</a></li>
+          <li><a class="dropdown-item" href="#">M.Sc. (Physics / Chemistry / Maths)</a></li>
+          <li><a class="dropdown-item" href="#">M.Sc. (Political Science)</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</li>
+    
+<!-- Earth School Dropdown -->
+        
+  <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Admmission</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/scholarship">Scholarship Policy</a></li>
+            <li><a class="dropdown-item" href="/fee">Free Structure</li>
+            <!-- <li><a class="dropdown-item" href="course.html">Apply Now</li> -->
+            <li><a class="dropdown-item" href="/online">Online Aptitude Test</li>
+            <!-- <li><a class="dropdown-item" href="course.html">Downloads</li> -->
+          </ul>
+          
+        <li class="nav-item"><a class="nav-link" href="/vacancies">Vacancies</a></li>
+
+        <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+      </ul>
+
+      <!-- Apply Button -->
+      <a href="/contact" class="btn btn-apply ms-lg-3 mt-3 mt-lg-0">Apply Now</a>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+
+<!-- Fullscreen Hero Section for Education Consultancy -->
+<section class="hero-edu d-flex align-items-center" style="background-color: #002147; background-image: url('images/SRM.jpg'); /* Replace with your image */">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Side Content -->
+      <div class="col-lg-6 text-white text-center text-lg-start mb-5 mb-lg-0">
+        <h1 class="display-5 fw-bold">Shape Your Future with SRM University</h1>
+        <p class="lead">We support you through every step of the admission process with expert guidance, modern programs, and global opportunities.</p>
+        <h2 class="mt-4 fw-bold text-primary">Apply Now — Admissions Open!</h2>
+      </div>
+
+      <!-- Right Side Form -->
+      <div class="col-lg-6">
+        <div class="form-box p-4 p-lg-5 rounded shadow">
+          <h2 class="text-white fw-bold mb-3 text-center">ADMISSION 2025–2026</h2>
+          <p class="text-white text-center">Admissions are now open for this academic session.</p>
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Email ID" required>
+            </div>
+            <div class="mb-3">
+              <input type="tel" class="form-control" placeholder="Mobile Number" required>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary fw-semibold">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- SRM University Admission Section -->
+<section class="py-5" style="background-color: #899aca;">
+  <div class="container">
+    <div class="row align-items-center g-4">
+
+      <!-- Left Side: Image -->
+      <div class="col-md-6">
+        <img src="images/SRM_1.jpeg" alt="SRM University Campus" class="img-fluid rounded shadow">
+      </div>
+
+      <!-- Right Side: Content -->
+      <div class="col-md-6">
+        <h2 class="fw-bold text-primary">SRM University Admission 2025–2026</h2>
+        <p class="text-muted">
+          Empower your future with SRM University — a globally recognized institution for excellence in engineering, management, medicine, and sciences. Admissions for UG & PG programs are now open. Take the first step towards a successful career at SRM today!
+        </p>
+        <a href="#" class="btn btn-primary mt-3">Apply Now</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Image Showcase Section -->
+<section class="py-5" style="background-color: #899aca;">
+  <div class="container-fluid">
+    <div class="row g-3">
+
+      <!-- Left Vertical Image -->
+      <div class="col-lg-3 col-md-12">
+        <div class="h-100 overflow-hidden rounded hover-effect">
+          <img src="images/srm_2.webp" alt="Left Image" class="img-fluid h-100 w-100 object-cover rounded">
+        </div>
+      </div>
+
+      <!-- Center Images -->
+      <div class="col-lg-6 col-md-12">
+        <div class="d-flex flex-column h-100 gap-3">
+
+          <!-- Top Horizontal Image -->
+          <div class="hover-effect rounded overflow-hidden">
+            <img src="images/srm_3.webp" alt="Center Top" class="img-fluid w-100 rounded">
+          </div>
+
+          <!-- Bottom Two Square Images -->
+          <div class="d-flex gap-3">
+            <div class="w-50 hover-effect rounded overflow-hidden">
+              <img src="images/srm_4.jpg" alt="Center Left" class="img-fluid w-100 h-100 rounded object-cover">
+            </div>
+            <div class="w-50 hover-effect rounded overflow-hidden">
+              <img src="images/srm_5.jpg" alt="Center Right" class="img-fluid w-100 h-100 rounded object-cover">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Right Vertical Image -->
+      <div class="col-lg-3 col-md-12">
+        <div class="h-100 overflow-hidden rounded hover-effect">
+          <img src="images/srm_6.jpg" alt="Right Image" class="img-fluid h-100 w-100 object-cover rounded">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<section class="py-5" style="background-color: #899aca;">
+  <div class="container">
+    <!-- Heading & Description -->
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-black">Courses Offered by SRM University</h2>
+      <p class="text-muted">SRM University provides a diverse selection of UG & PG programs designed to shape bright futures across multiple disciplines.</p>
+    </div>
+
+    <!-- Courses Grid -->
+    <div class="row g-4">
+      <!-- Sample Course Cards -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="text-center p-4 border rounded bg-white shadow-sm h-100 course-card">
+          <i class="fas fa-laptop-code fa-2x text-primary mb-3"></i>
+          <h6 class="fw-semibold">B.Tech (IT)</h6>
+          <p class="text-muted small">Information Technology</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="text-center p-4 border rounded bg-white shadow-sm h-100 course-card">
+          <i class="fas fa-briefcase-medical fa-2x text-danger mb-3"></i>
+          <h6 class="fw-semibold">MBBS</h6>
+          <p class="text-muted small">Medical & Health Sciences</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="text-center p-4 border rounded bg-white shadow-sm h-100 course-card">
+          <i class="fas fa-business-time fa-2x text-warning mb-3"></i>
+          <h6 class="fw-semibold">MBA</h6>
+          <p class="text-muted small">Business Administration</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="text-center p-4 border rounded bg-white shadow-sm h-100 course-card">
+          <i class="fas fa-flask fa-2x text-info mb-3"></i>
+          <h6 class="fw-semibold">B.Sc (Biotech)</h6>
+          <p class="text-muted small">Biotechnology</p>
+        </div>
+      </div>
+
+      <!-- More Courses -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="text-center p-4 border rounded bg-white shadow-sm h-100 course-card">
+          <i class="fas fa-gavel fa-2x text-success mb-3"></i>
+          <h6 class="fw-semibold">BA LLB</h6>
+          <p class="text-muted small">Law & Legal Studies</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="text-center p-4 border rounded bg-white shadow-sm h-100 course-card">
+          <i class="fas fa-tooth fa-2x text-secondary mb-3"></i>
+          <h6 class="fw-semibold">BDS</h6>
+          <p class="text-muted small">Dental Surgery</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="text-center p-4 border rounded bg-white shadow-sm h-100 course-card">
+          <i class="fas fa-palette fa-2x text-success mb-3"></i>
+          <h6 class="fw-semibold">BFA</h6>
+          <p class="text-muted small">Fine Arts</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="text-center p-4 border rounded bg-white shadow-sm h-100 course-card">
+          <i class="fas fa-language fa-2x text-dark mb-3"></i>
+          <h6 class="fw-semibold">BA (English)</h6>
+          <p class="text-muted small">English Literature</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="text-center p-4 border rounded bg-white shadow-sm h-100 course-card">
+          <i class="fas fa-user-nurse fa-2x text-info mb-3"></i>
+          <h6 class="fw-semibold">B.Sc Nursing</h6>
+          <p class="text-muted small">Nursing & Health Care</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="text-center p-4 border rounded bg-white shadow-sm h-100 course-card">
+          <i class="fas fa-globe fa-2x text-primary mb-3"></i>
+          <h6 class="fw-semibold">BA (IR)</h6>
+          <p class="text-muted small">International Relations</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="text-center p-4 border rounded bg-white shadow-sm h-100 course-card">
+          <i class="fas fa-microscope fa-2x text-danger mb-3"></i>
+          <h6 class="fw-semibold">M.Sc Microbiology</h6>
+          <p class="text-muted small">Postgraduate Science</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="text-center p-4 border rounded bg-white shadow-sm h-100 course-card">
+          <i class="fas fa-chart-line fa-2x text-warning mb-3"></i>
+          <h6 class="fw-semibold">B.Com (Hons)</h6>
+          <p class="text-muted small">Commerce & Finance</p>
+        </div>
+      </div>
+
+      <!-- B.Arch -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="text-center p-4 border rounded bg-white shadow-sm h-100 course-card">
+          <i class="fas fa-drafting-compass fa-2x text-secondary mb-3"></i>
+          <h6 class="fw-semibold">B.Arch</h6>
+          <p class="text-muted small">Architecture & Design</p>
+        </div>
+      </div>
+
+      <!-- MCA -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="text-center p-4 border rounded bg-white shadow-sm h-100 course-card">
+          <i class="fas fa-desktop fa-2x text-dark mb-3"></i>
+          <h6 class="fw-semibold">MCA</h6>
+          <p class="text-muted small">Computer Applications</p>
+        </div>
+      </div>
+
+      <!-- B.Pharm -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="text-center p-4 border rounded bg-white shadow-sm h-100 course-card">
+          <i class="fas fa-pills fa-2x text-danger mb-3"></i>
+          <h6 class="fw-semibold">B.Pharm</h6>
+          <p class="text-muted small">Pharmaceutical Sciences</p>
+        </div>
+      </div>
+
+      <!-- Mass Comm -->
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="text-center p-4 border rounded bg-white shadow-sm h-100 course-card">
+          <i class="fas fa-bullhorn fa-2x text-warning mb-3"></i>
+          <h6 class="fw-semibold">BA (Mass Comm)</h6>
+          <p class="text-muted small">Journalism & Communication</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Attractive SRM University Courses Section -->
+<section class="py-5" style="background: linear-gradient(135deg, #807ec7, #1611a7);">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-10 col-md-12">
+        <h2 class="fw-bold display-5 text-dark mb-4">
+          Unlock Your Future with <span class="text-black">SRM University</span>
+        </h2>
+        <p class="lead text-white">
+          Explore a wide spectrum of programs in Engineering, Medicine, Management, Science, Law, and more.
+          At SRM, experience cutting-edge research, global exposure, and world-class infrastructure to shape your career.
+        </p>
+        <a href="SRM.html" class="btn btn-danger btn-lg mt-4 px-4 py-2 shadow-sm">
+          Explore Courses
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- Footer: SRM University -->
+<footer class="footer text-dark pt-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- Column 1: Logo & Description -->
+      <div class="col-md-3 mb-4">
+        <img src="images/logo_3.png" alt="SRM University Logo" class="footer-logo mb-3" style="height: 50px;">
+        <p>
+          SRM Institute of Science and Technology (SRMIST) is one of India's top-ranking universities offering a wide range of undergraduate, postgraduate, and doctoral programs across disciplines with state-of-the-art infrastructure.
+        </p>
+      </div>
+
+      <!-- Column 2: University Info -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-semibold">University Info</h5>
+        <p>Deemed to be University</p>
+        <p>Established in 1985</p>
+        <p>NAAC Accredited with A++ Grade</p>
+      </div>
+
+      <!-- Column 3: Departments -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-semibold">Departments</h5>
+        <p>Engineering & Technology</p>
+        <p>Management</p>
+        <p>Medical & Health Sciences</p>
+        <p>Science & Humanities</p>
+      </div>
+
+      <!-- Column 4: Contact Info -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-semibold">Contact Us</h5>
+        <p>SRM University, Kattankulathur Campus</p>
+        <p>Chengalpattu, Tamil Nadu – 603203</p>
+        <p>Phone: +91-44-27417000</p>
+        <p>Email: info@srmist.edu.in</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom text-center pt-4 mt-4 border-top">
+      <small>&copy; 2025 SRM University, Kattankulathur. All rights reserved.</small>
+    </div>
+  </div>
+</footer>
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
